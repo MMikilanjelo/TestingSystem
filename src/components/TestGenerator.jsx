@@ -23,7 +23,6 @@ const TestGenerator = () => {
     };
 
     const generateTest = () => {
-        console.log('Generating test with selected questions:', selectedQuestions);
         setTestGenerated(true);
     };
 

@@ -6,6 +6,8 @@ const Question = ({ question, onAnswerSelect }) => {
     const handleAnswerSelect = (event) => {
         setSelectedAnswer(event.target.value);
         onAnswerSelect(question, event.target.value);
+        //console.log(question);
+        //console.log(event.target.value + "my event target value");
     };
 
     return (
